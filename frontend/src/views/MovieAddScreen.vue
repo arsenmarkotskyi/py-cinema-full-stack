@@ -124,7 +124,7 @@ export default {
           await axios.post(`/api/cinema/movies-${movie.id}-upload-image`, data, imageConfig);
         }
 
-        location.hash = '#/movies';
+        location.hash = '#/movies/';
       } catch (err) {
         console.error(err);
       }
